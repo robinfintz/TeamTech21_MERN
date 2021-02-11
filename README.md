@@ -9,3 +9,6 @@ Welcome to Team Tech! Here is how you can get started:
 * Still in the frontend folder, run "npm start" to see if your front end directories are working properly
 * Now run "cd.." and then "cd backend"
 * In the backend folder, run "node server.js" to check if your backend is running properly
+* Run "cd.."
+* Use "git checkout -b [YOUR_NAME_HERE]" to create your own branch
+* Push "git push origin [YOUR_NAME_HERE]" to push your new branch to the repository
