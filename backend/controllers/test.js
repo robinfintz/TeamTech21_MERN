@@ -6,8 +6,8 @@ function sendAsHtml(response, text) {
     response.send(`<html><body><p>${text}</p></body></html>`);
 }
 
-exports.base = function(request, response) {
-    sendAsHtml(response, 'This is the test home page.');
+exports.base = (req, res) =>  {
+    sendAsHtml(res, 'This is the test home page.');
 }
 
 exports.student = function(request, response) {
