@@ -9,7 +9,8 @@ const Home = () => {
         <div>
             <Container>
               <Row>
-                  <Col style={{textAlign: "center", fontSize: "300%", fontWeight: "bold"}}>Home</Col>
+                  <p className = "sample" > hdfbhbf</p>
+                  <Col>Home</Col>
               </Row>
               <div className="spacer" > &nbsp; </div>
               <div className="spacer" > &nbsp; </div>
