@@ -17,3 +17,11 @@ exports.student = function(request, response) {
 exports.admin = function(request, response) {
     sendAsHtml(response, 'Hello, Admin.');
 }
+
+exports.PostSignUp = function(request, response) {
+    sendAsHtml(response, 'User created.');
+}
+
+exports.GetProfile = function(request, response) {
+    sendAsHtml(response, 'Got profile.');
+}
