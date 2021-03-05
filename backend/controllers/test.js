@@ -17,3 +17,11 @@ exports.student = function(request, response) {
 exports.admin = function(request, response) {
     sendAsHtml(response, 'Hello, Admin.');
 }
+
+exports.matchWorker = function(request, response) {
+    sendAsHtml(response, 'Matching Worker');
+}
+
+exports.token = function(request, response) {
+    sendAsHtml(response, 'token');
+}
