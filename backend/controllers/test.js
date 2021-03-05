@@ -17,3 +17,9 @@ exports.student = function(request, response) {
 exports.admin = function(request, response) {
     sendAsHtml(response, 'Hello, Admin.');
 }
+exports.getAirQuality = function(request, response) {
+    sendAsHtml(response, 'Getting Air Quality.');
+}
+exports.getDeviceStatus = function(request, response) {
+    sendAsHtml(response, 'Getting Device Status.');
+}
