@@ -2,6 +2,7 @@ import React from 'react';
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Setup = () => {
@@ -9,7 +10,13 @@ const Setup = () => {
         <div>
             <Container>
               <Row>
-                  <Col style={{textAlign: "center", fontSize: "300%", fontWeight: "bold"}}>Setup</Col>
+                  <Col style={{textAlign: "left", fontSize: "300%", fontWeight: "bold", color: "#5554A4", fontFamily: "Righteous"}}>Setup</Col>
+              </Row>
+              <Row>
+                  <Col style={{textAlign: "left", fontSize: "100%", fontWeight: "normal", color: "#000000", fontFamily: "Righteous"}}>Sensor Type</Col>
+                  <Col style={{textAlign: "left", fontSize: "100%", fontWeight: "normal", color: "#000000", fontFamily: "Righteous"}}>ID#/Name</Col>
+                  <Col style={{textAlign: "left", fontSize: "100%", fontWeight: "normal", color: "#000000", fontFamily: "Righteous"}}>Location/Status</Col>
+                  <Col style={{textAlign: "left", fontSize: "100%", fontWeight: "normal", color: "#000000", fontFamily: "Righteous"}}>Other Details</Col>
               </Row>
               <div className="spacer" > &nbsp; </div>
               <div className="spacer" > &nbsp; </div>
