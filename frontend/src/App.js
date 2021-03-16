@@ -29,7 +29,7 @@ function App() {
     <Router>
       <div id='page-container'>
         <Navigation/>
-        <img src={Robin} className="App-logo" alt="logo" />
+        {/* <img src={Robin} className="App-logo" alt="logo" /> */}
         <div className="content">
           <Switch>
             <Route exact path="/">
