@@ -42,7 +42,7 @@
 }
 
 .rectangle {
-  position: absolute;
+  position: relative;
   width: 1058px;
   height: 1013px;
   left: 315px;

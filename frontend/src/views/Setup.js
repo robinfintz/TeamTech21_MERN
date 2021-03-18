@@ -3,25 +3,20 @@ import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles.css';
 
 
 const Setup = () => {
     return (   
     <div>
         <Container>
-        <div class = "rectangle">
+        <div className = "rectangle">
             <Row>
-                <Col style={
-                    {position: "absolute",
-                    width: "541px",
-                    height: "105px",
-                    left: "375px",
-
-                    fontSize: "300%",
-                    fontWeight: "bold",
-                    color: "#5554A4",
-                    fontFamily: "Righteous"}
-                }>Sensor Setup</Col>
+                <Col>
+                <div className = "purp">
+                    sample text
+                </div>
+                </Col>
             </Row>
               
             <div className="spacer" > &nbsp; </div>
