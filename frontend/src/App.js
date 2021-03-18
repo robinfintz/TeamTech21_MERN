@@ -22,6 +22,7 @@ import Setup from './views/Setup';
 import Settings from './views/Settings';
 import Employees from './views/Employees';
 
+
 function App() {
   let [username, setUsername] = useState("")
 
@@ -29,7 +30,6 @@ function App() {
     <Router>
       <div id='page-container'>
         <Navigation/>
-        <img src={Robin} className="App-logo" alt="logo" />
         <div className="content">
           <Switch>
             <Route exact path="/">
