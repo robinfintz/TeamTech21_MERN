@@ -40,18 +40,3 @@
 .sample {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-<<<<<<< HEAD
-=======
-
-.rectangle {
-  position: relative;
-  width: 1058px;
-  height: 1013px;
-  left: 315px;
-  top: 61px;
-
-  background: #EDE4D5;
-  border-radius: 24px;
-}
-
->>>>>>> a818e8a318b31353f071f498f8a2695ae5f09924
