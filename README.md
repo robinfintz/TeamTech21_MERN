@@ -12,3 +12,8 @@ Welcome to Team Tech! Here is how you can get started:
 * Run "cd.."
 * Use "git checkout -b [YOUR_NAME_HERE]" to create your own branch
 * Push "git push origin [YOUR_NAME_HERE]" to push your new branch to the repository
+
+* Ctl C -> shut down npm (node) terminal
+* cd .. to go back direction
+* git checkout -b alexia (to make a branch called 'alexia') (above^^^)
+* git push origin alexia (to reflect branch in main repository) (above^^^)
