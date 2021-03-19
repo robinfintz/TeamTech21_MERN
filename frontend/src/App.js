@@ -1,4 +1,5 @@
 import Robin from './Robin.jpg';
+
 import './App.css';
 
 import { 
@@ -29,8 +30,8 @@ function App() {
     <Router>
       <div id='page-container'>
         <Navigation/>
-        <img src={Robin} className="App-logo" alt="logo" />
-        <div className="content">
+        
+            <div className="content">
           <Switch>
             <Route exact path="/">
               <Redirect to="/Home"/>
