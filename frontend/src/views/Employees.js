@@ -8,6 +8,7 @@ import battery75 from '../symbols/battery-75.jpg'
 import battery50 from '../symbols/battery-50.jpg'
 import battery25 from '../symbols/battery-25.jpg'
 import batteryWarning from '../symbols/battery-warning.jpg'
+import batteryOffline from '../symbols/battery-offline.jpg'
 import deviceOnline from '../symbols/device-online.jpg'
 import deviceOffline from '../symbols/device-offline.jpg'
 import goodAir from '../symbols/good-air.jpg'
@@ -76,21 +77,21 @@ const Employees = () => {
               <div className="row">
                   <div className="col-sm-4" style={{textAlign:"center"}}><img src={deviceOffline} className="img-fluid" alt="device offline" /></div>
                   <div className="col-sm-4" style={{textAlign:"center"}}><img src={deviceOffline} className="img-fluid" alt="device offline" /><img src={noWarning} className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4" style={{textAlign:"center"}}><img src={batteryWarning} className="img-fluid" alt="battery offline" /></div>
+                  <div className="col-sm-4" style={{textAlign:"center"}}><img src={batteryOffline} className="img-fluid" alt="battery offline" /></div>
                 </div>
                 <div className="spacer"> &nbsp; </div>
               
               <div className="row">
                   <div className="col-sm-4" style={{textAlign:"center"}}><img src={deviceOffline} className="img-fluid" alt="device offline" /></div>
                   <div className="col-sm-4" style={{textAlign:"center"}}><img src={deviceOffline} className="img-fluid" alt="device offline" /><img src={noWarning} className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4" style={{textAlign:"center"}}><img src={batteryWarning} className="img-fluid" alt="battery offline" /></div>
+                  <div className="col-sm-4" style={{textAlign:"center"}}><img src={batteryOffline} className="img-fluid" alt="battery offline" /></div>
                 </div>
                 <div className="spacer"> &nbsp; </div>
 
               <div className="row">
                   <div className="col-sm-4" style={{textAlign:"center"}}><img src={deviceOffline} className="img-fluid" alt="device offline" /></div>
                   <div className="col-sm-4" style={{textAlign:"center"}}><img src={deviceOffline} className="img-fluid" alt="device offline" /><img src={noWarning} className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4" style={{textAlign:"center"}}><img src={batteryWarning} className="img-fluid" alt="battery offline" /></div>
+                  <div className="col-sm-4" style={{textAlign:"center"}}><img src={batteryOffline} className="img-fluid" alt="battery offline" /></div>
                 </div>
                 <div className="spacer"> &nbsp; </div>
 
