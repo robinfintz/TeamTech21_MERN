@@ -1,0 +1,21 @@
+.purp{
+    position: relative;
+    width: 100%;
+    height: 105px;
+    left: 375px;
+    font-size: 300%;
+    font-weight: bold;
+    color: #5554A4;
+    font-family:  Righteous;
+  }
+
+  .rectangle {
+    position: relative;
+    width: 1058px;
+    height: 1013px;
+    left: 315px;
+    top: 61px;
+  
+    background: #EDE4D5;
+    border-radius: 24px;
+  }

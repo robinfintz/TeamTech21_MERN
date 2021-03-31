@@ -23,6 +23,7 @@ import Setup from './views/Setup';
 import Settings from './views/Settings';
 import Employees from './views/Employees';
 
+
 function App() {
   let [username, setUsername] = useState("")
 
@@ -30,8 +31,12 @@ function App() {
     <Router>
       <div id='page-container'>
         <Navigation/>
+<<<<<<< HEAD
         
             <div className="content">
+=======
+        <div className="content">
+>>>>>>> main
           <Switch>
             <Route exact path="/">
               <Redirect to="/Home"/>
