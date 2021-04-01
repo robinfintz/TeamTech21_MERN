@@ -1,7 +1,4 @@
 import React from 'react';
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'styles.css'
 import battery100 from '../symbols/battery-100.jpg'
@@ -127,3 +124,5 @@ export default Employees;
 
 // style={{textAlign:"center", fontSize:"64px", fontWeight:"bold", color:"#5554A4", fontFamily:"righteous"}} was orig inline css for the title, for reference
 // style={{textAlign:"center", fontSize:"36px", fontWeight:"bold", color:"#F78628", fontFamily:"righteous"}} orig css for the headers of the columns, for reference
+
+// import Container from "react-bootstrap/Container" import Row from "react-bootstrap/Row" import Col from "react-bootstrap/Col"  removed these, saving them here just in case
