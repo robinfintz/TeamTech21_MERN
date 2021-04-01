@@ -56,7 +56,6 @@
     border-radius: 24px;
   }
 
-<<<<<<< HEAD
   .circle {
     position: absolute;
     border-radius: 50%;
@@ -84,7 +83,7 @@
     right: 0;
     /*width: 300 px;
     border: 3px solid #73AD21;*/
-=======
+  }
   .image {
     display: block;
     margin-left: auto;
@@ -100,5 +99,4 @@
     font-weight: bold;
     color: #F78628;
     font-family:  Righteous;
->>>>>>> main
   }
