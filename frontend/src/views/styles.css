@@ -1,25 +1,90 @@
+
 .purp{
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 541px;
     height: 105px;
-    left: 375px;
-    font-size: 300%;
-    font-weight: bold;
-    color: #5554A4;
+    left: 75px;
+    top: 50px;
+
     font-family:  Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 89px;
+    color: #5554A4;
+    
+  }
+
+  .black{
+    position: relative;
+    width: 241px;
+    height: 50px;
+    left: 50px;
+    top: 75px;
+
+    font-family:  Righteous;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    color: #000000;
+  }
+  .black2{
+    position: relative;
+    width: 241px;
+    height: 50px;
+    left: 50px;
+    top: 75px;
+
+    font-family:  Righteous;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
   }
 
   .rectangle {
-    position: relative;
+    position: absolute;
     width: 1058px;
     height: 1013px;
     left: 315px;
     top: 61px;
+    z-index: -1;
   
     background: #EDE4D5;
     border-radius: 24px;
   }
 
+<<<<<<< HEAD
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top: 100px;
+    background: #ffa305;
+  }
+
+  @font-face {
+    font-family: Righteous;
+    src:local("Righteous-Regular.tff");
+  }
+
+  div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #5554A4;
+  }
+  
+  div.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    /*width: 300 px;
+    border: 3px solid #73AD21;*/
+=======
   .image {
     display: block;
     margin-left: auto;
@@ -35,4 +100,5 @@
     font-weight: bold;
     color: #F78628;
     font-family:  Righteous;
+>>>>>>> main
   }
