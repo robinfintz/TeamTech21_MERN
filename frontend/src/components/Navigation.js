@@ -8,6 +8,7 @@ const NavBar = (props) => {
             <div className={"nav-items"}>
                 <Link className = "nav-link" to='/Home'>HOME</Link>
                 <Link className = "nav-link" to='/Setup'>Setup</Link>
+                <Link className = "nav-link" to='/Employees'>Employees</Link>
             </div>
         </div>
     )
