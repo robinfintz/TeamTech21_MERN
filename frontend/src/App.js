@@ -31,8 +31,6 @@ function App() {
     <Router>
       <div id='page-container'>
         <Navigation/>
-        
-            <div className="content">
         <div className="content">
           <Switch>
             <Route exact path="/">
