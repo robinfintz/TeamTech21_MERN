@@ -6,11 +6,9 @@ const cors = require('cors');
 const express = require('express');
 const testRouter = require('./routers/test');
 const datainputRouter = require('./routers/datainput');
+const connectionString = require('./config').connectionString;
 
-
-
-const cString = 'mongodb+srv://user:oWXrnOjoKaNl3MN6@cluster0.rs0u7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'; 
-const client = new MongoClient(cString, { useNewUrlParser: true, useUnifiedTopology: true });
+const client = new MongoClient(connectionString, { useNewUrlParser: true, useUnifiedTopology: true });
 client.connect(err => {
     if (err) {
         throw err
@@ -26,6 +24,12 @@ client.connect(err => {
 
     app.use('/api/test/', testRouter);
     app.use('/api/datainput/', datainputRouter);
+
+    app.get('/api/shipwrecks', (req,res) => {
+       let cursor = shipWrecks.find({latdec: 
+            9.3547792}) 
+            cursor.forEach(value => {res.send(value)})
+    })
 
     app.listen(PORT, function() {
         console.log(`Server now running on port ${PORT}...`);
