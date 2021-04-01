@@ -31,12 +31,9 @@ function App() {
     <Router>
       <div id='page-container'>
         <Navigation/>
-<<<<<<< HEAD
         
             <div className="content">
-=======
         <div className="content">
->>>>>>> main
           <Switch>
             <Route exact path="/">
               <Redirect to="/Home"/>
