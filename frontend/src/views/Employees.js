@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'styles.css'
+import './styles.css';
 import battery100 from '../symbols/battery-100.jpg'
 import battery75 from '../symbols/battery-75.jpg'
 import battery50 from '../symbols/battery-50.jpg'
