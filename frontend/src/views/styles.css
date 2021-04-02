@@ -1,4 +1,4 @@
-.purp{
+.purp {
     position: relative;
     width: 100%;
     height: 105px;
@@ -6,7 +6,7 @@
     font-size: 300%;
     font-weight: bold;
     color: #5554A4;
-    font-family:  Righteous;
+    font-family: Righteous;
   }
 
   .rectangle {
@@ -24,15 +24,26 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    text-align: center;
   }
 
   .orange {
     position: relative;
     text-align: center;
-    width: 100%;
+    width: 33.33333%;
     font-size: 250%;
     font-weight: bold;
     color: #F78628;
-    font-family:  Righteous;
+    font-family: Righteous;
+  }
+/* I made a second purple one to center the text for my page */
+  .purple { 
+    position: relative;
+    width: 100%;
+    height: 105px;
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    color: #5554A4;
+    font-family: Righteous;
   }
