@@ -18,8 +18,8 @@ const Employees = () => {
         return (
           <div>
               <div class="container">
-              <div className="row">
-                  <div className="col-lg" className="purp">Employees</div>
+              <div className="row" style={{textAlign:"center"}}>
+                  <div className="col-lg" className="purple">Employees</div>
                 </div>
               <div className="spacer"> &nbsp; </div>
              
@@ -31,65 +31,65 @@ const Employees = () => {
                 <div className="spacer"> &nbsp; </div>
 
               <div className="row">
-                  <div className="col-sm-4"><img src={deviceOnline} className="image" className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={badAir} className="image" className="img-fluid" alt="poor air conditions" /><img src={warning} className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={battery100} className="image" className="img-fluid" alt="battery 100%" /></div>
+                  <div className="col-sm-4" className="image"><img src={deviceOnline} className="image" className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={badAir} className="image" className="img-fluid" alt="poor air conditions" /><img src={warning} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={battery100} className="image" className="img-fluid" alt="battery 100%" /></div>
                 </div>
                 <div className="spacer"> &nbsp; </div>
 
               <div className="row">
-                  <div className="col-sm-4"><img src={deviceOnline} className="image" className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={goodAir} className="image" className="img-fluid" alt="poor air conditions" /><img src={noWarning} className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={battery100} className="image" className="img-fluid" alt="battery 100%" /></div>
+                  <div className="col-sm-4" className="image"><img src={deviceOnline} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={goodAir} className="img-fluid" alt="poor air conditions" /><img src={noWarning} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={battery100} className="img-fluid" alt="battery 100%" /></div>
                 </div>
                 <div className="spacer"> &nbsp; </div>
               
               <div className="row">
-                  <div className="col-sm-4"><img src={deviceOnline} className="image" className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={goodAir} className="image" className="img-fluid" alt="good air conditions" /><img src={noWarning} className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={battery75} className="image" className="img-fluid" alt="battery 75%" /></div>
+                  <div className="col-sm-4" className="image"><img src={deviceOnline} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={goodAir} className="img-fluid" alt="good air conditions" /><img src={noWarning} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={battery75} className="img-fluid" alt="battery 75%" /></div>
                 </div>
                 <div className="spacer"> &nbsp; </div>
 
               <div className="row">
-                  <div className="col-sm-4"><img src={deviceOnline} className="image" className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={goodAir} className="image" className="img-fluid" alt="good air conditions" /><img src={noWarning} className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={battery50} className="image" className="img-fluid" alt="battery 50%" /></div>
+                  <div className="col-sm-4" className="image"><img src={deviceOnline} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={goodAir} className="img-fluid" alt="good air conditions" /><img src={noWarning} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={battery50} className="img-fluid" alt="battery 50%" /></div>
                 </div>
                 <div className="spacer"> &nbsp; </div>
               
               <div className="row">
-                  <div className="col-sm-4"><img src={deviceOnline} className="image" className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={goodAir} className="image" className="img-fluid" alt="poor air conditions" /><img src={noWarning} className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={battery25} className="image" className="img-fluid" alt="battery 25%" /></div>
+                  <div className="col-sm-4" className="image"><img src={deviceOnline} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={goodAir} className="img-fluid" alt="poor air conditions" /><img src={noWarning} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={battery25} className="img-fluid" alt="battery 25%" /></div>
                 </div>
                 <div className="spacer"> &nbsp; </div>
               
               <div className="row">
-                  <div className="col-sm-4"><img src={deviceOnline} className="image" className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={goodAir} className="image" className="img-fluid" alt="poor air conditions" /><img src={noWarning} className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={batteryWarning} className="image" className="img-fluid" alt="battery warning" /></div>
+                  <div className="col-sm-4" className="image"><img src={deviceOnline} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={goodAir} className="img-fluid" alt="poor air conditions" /><img src={noWarning} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={batteryWarning} className="img-fluid" alt="battery warning" /></div>
                 </div>
                 <div className="spacer"> &nbsp; </div>
 
               <div className="row">
-                  <div className="col-sm-4"><img src={deviceOffline} className="image" className="img-fluid" alt="device offline" /></div>
-                  <div className="col-sm-4"><img src={deviceOffline} className="image" className="img-fluid" alt="device offline" /><img src={noWarning} className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={batteryOffline} className="image" className="img-fluid" alt="battery offline" /></div>
+                  <div className="col-sm-4" className="image"><img src={deviceOffline} className="img-fluid" alt="device offline" /></div>
+                  <div className="col-sm-4" className="image"><img src={deviceOffline} className="img-fluid" alt="device offline" /><img src={noWarning} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={batteryOffline} className="img-fluid" alt="battery offline" /></div>
                 </div>
                 <div className="spacer"> &nbsp; </div>
               
               <div className="row">
-                  <div className="col-sm-4"><img src={deviceOffline} className="image" className="img-fluid" alt="device offline" /></div>
-                  <div className="col-sm-4"><img src={deviceOffline} className="image" className="img-fluid" alt="device offline" /><img src={noWarning} className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={batteryOffline} className="image" className="img-fluid" alt="battery offline" /></div>
+                  <div className="col-sm-4" className="image"><img src={deviceOffline} className="img-fluid" alt="device offline" /></div>
+                  <div className="col-sm-4" className="image"><img src={deviceOffline} className="img-fluid" alt="device offline" /><img src={noWarning} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={batteryOffline} className="img-fluid" alt="battery offline" /></div>
                 </div>
                 <div className="spacer"> &nbsp; </div>
 
               <div className="row">
-                  <div className="col-sm-4"><img src={deviceOffline} className="image" className="img-fluid" alt="device offline" /></div>
-                  <div className="col-sm-4"><img src={deviceOffline} className="image" className="img-fluid" alt="device offline" /><img src={noWarning} className="img-fluid" alt="online" /></div>
-                  <div className="col-sm-4"><img src={batteryOffline} className="image" className="img-fluid" alt="battery offline" /></div>
+                  <div className="col-sm-4" className="image"><img src={deviceOffline} className="img-fluid" alt="device offline" /></div>
+                  <div className="col-sm-4" className="image"><img src={deviceOffline} className="img-fluid" alt="device offline" /><img src={noWarning} className="img-fluid" alt="online" /></div>
+                  <div className="col-sm-4" className="image"><img src={batteryOffline} className="img-fluid" alt="battery offline" /></div>
                 </div>
                 <div className="spacer"> &nbsp; </div>
 
