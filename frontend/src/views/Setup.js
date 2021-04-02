@@ -10,33 +10,69 @@ const Setup = () => {
     return (   
     <div>
         <Container>
+        {/* <div className = "purp">HELLO THERE</div> */}
         <div className = "rectangle">
+            
             <Row>
-                <Col>
-                <div className = "purp">
-                    sample text
-                </div>
-                </Col>
+                <Col><div className = "purp">SENSOR SETUP</div></Col>
+                <Col><div className = "circle"></div></Col>
+                <Col><div className = "circle"></div></Col>
             </Row>
-              
+            
             <div className="spacer" > &nbsp; </div>
             <div className="spacer" > &nbsp; </div>
             <div className="spacer" > &nbsp; </div>
 
 
-                <table border = "1" cellpadding = "10" width = "1000">
-                    <tr>
-                        <th className={{fontSize:"300%"}}>Sensor Type</th>
-                        <th>ID#/Name</th>
-                        <th>Location/Status</th>
-                        <th>Other Details</th>
+                <table border = "1" cellpadding = "10" width = "964">
+                    <tr align = "center">
+                        <th className= "black">Sensor Type ˇ</th>
+                        <th className= "black">ID#/Name ˇ</th>
+                        <th className= "black">Location/Status ˇ</th>
+                        <th className= "black">Other Details ˇ</th>
                     </tr>
 
                     <tr>
-                        <td>blank1</td>
-                        <td>blank2</td>
-                        <td>blank3</td>
-                        <td>blank4</td>
+                        <td className= "black2">blank1</td>
+                        <td className= "black2">blank2</td>
+                        <td className= "black2">blank3</td>
+                        <td className= "black2">blank4</td>
+                    </tr>
+                    <tr>
+                        <td className= "black2">blank1</td>
+                        <td className= "black2">blank2</td>
+                        <td className= "black2">blank3</td>
+                        <td className= "black2">blank4</td>
+                    </tr>
+                    <tr>
+                        <td className= "black2">blank1</td>
+                        <td className= "black2">blank2</td>
+                        <td className= "black2">blank3</td>
+                        <td className= "black2">blank4</td>
+                    </tr>
+                    <tr>
+                        <td className= "black2">blank1</td>
+                        <td className= "black2">blank2</td>
+                        <td className= "black2">blank3</td>
+                        <td className= "black2">blank4</td>
+                    </tr>
+                    <tr>
+                        <td className= "black2">blank1</td>
+                        <td className= "black2">blank2</td>
+                        <td className= "black2">blank3</td>
+                        <td className= "black2">blank4</td>
+                    </tr>
+                    <tr>
+                        <td className= "black2">blank1</td>
+                        <td className= "black2">blank2</td>
+                        <td className= "black2">blank3</td>
+                        <td className= "black2">blank4</td>
+                    </tr>
+                    <tr>
+                        <td className= "black2">blank1</td>
+                        <td className= "black2">blank2</td>
+                        <td className= "black2">blank3</td>
+                        <td className= "black2">blank4</td>
                     </tr>
                 </table>
             </div>
@@ -45,10 +81,8 @@ const Setup = () => {
             <div className="spacer" > &nbsp; </div>
             <div className="spacer" > &nbsp; </div>
 
-            <a href = "https://www.tutorialspoint.com/html/html_forms.htm">HTML Form stuff (text input)</a>
-            
-            
         </Container>
+        <a href = "https://www.tutorialspoint.com/html/html_forms.htm">HTML Form stuff (text input)</a>
     </div>
     );
 };
