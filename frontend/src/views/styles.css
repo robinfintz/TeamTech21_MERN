@@ -55,7 +55,7 @@
     background: #EDE4D5;
     border-radius: 24px;
   }
-
+    
   .circle {
     position: absolute;
     border-radius: 50%;
@@ -99,4 +99,126 @@
     font-weight: bold;
     color: #F78628;
     font-family:  Righteous;
+  }
+  .roundRectangle {
+    position: absolute;
+    width: 1175px;
+    height: 650px;
+    left: 250px;
+    top: 150px;
+    z-index: -1;
+  
+    background: #FCFBFB;
+    border-radius: 50px;
+  }
+  .Bmap {
+    position: absolute;
+    width: 541px;
+    height: 105px;
+    left: 40px;
+    top: -10px;
+
+    font-family:  Righteous;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+    color: #5554A4;
+  }
+  .selBuilding {
+    position: absolute;
+    width: 541px;
+    height: 105px;
+    left: -10px;
+    top: -10px;
+
+    font-family:  Righteous;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 70px;
+    color: #5554A4;
+  }
+  .style {
+    position: absolute;
+    width: 541px;
+    height: 105px;
+    left: 940px;
+    top: -10px;
+
+    font-family:  Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 70px;
+    color: #000000;
+  }
+  .imageFormat {
+    position: absolute;
+    width: 800px;
+    height: 550px;
+    left: 30px;
+    top: 80px;
+    z-index: -1;
+    border-radius: 50px;
+  }
+  .vector5 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 880px;
+    top: 200px;
+  }
+  .vector4 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 880px;
+    top: 270px;
+  }
+  .vector1 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 880px;
+    top: 125px;
+  }
+  .vector2 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 880px;
+    top: 345px;
+  }
+  .vector3 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 880px;
+    top: 415px;
+  }
+  .vector6 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 880px;
+    top: 485px;
+  }
+  .border1 {
+    width: 750px;
+    height: -500px;
+    border: 2px solid #000000;
+    margin: -10px;
+    margin-right: -795px;
+    margin-left: 50px;
+    display: block;
+  }
+  .border2 {
+     width: 750px;
+    height: -500px;
+    border: 2px solid #000000;
+    margin: -10px;
+    margin-right: -795px;
+    margin-left: 45px;
+    display: block;
   }
