@@ -14,7 +14,7 @@ const Location = () => {
         return (
         <div>
             <Container>
-            <div className = "roundRectangle" >
+            <div className = "roundRect" >
               <div className="spacer" > &nbsp; </div>
               <Row>
                   <div className="spacer" > &nbsp; </div>
