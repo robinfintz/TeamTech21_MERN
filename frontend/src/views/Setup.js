@@ -2,8 +2,14 @@ import React from 'react';
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
+import Dropdown from 'react-bootstrap/Dropdown';
+import Form from 'react-bootstrap/Form'
+import FormControl from 'react-bootstrap/FormControl'
+import Button from 'react-bootstrap/Button'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
+import DropdownMenu from 'react-bootstrap/esm/DropdownMenu';
 
 
 const Setup = () => {
@@ -14,22 +20,45 @@ const Setup = () => {
         <div className = "rectangle">
             
             <Row>
-                <Col><div className = "purp">SENSOR SETUP</div></Col>
-                <Col><div className = "circle"></div></Col>
-                <Col><div className = "circle"></div></Col>
+                <Row><div className = "purp" style = {{position: "absolute", left: "50px", top: "120px"}}>SENSOR SETUP</div></Row>
+
+                <Form inline>
+                    <Col><Button className = "circle" variant="dark" style = {{borderColor: "#ffa305", fontWeight: "bold", alignContent: "center"}}>+</Button></Col>
+                    <Col><div className="spacer" > &nbsp; </div></Col>
+                    <Col><Button className = "circle" variant="dark" style = {{borderColor: "#ffa305", fontWeight: "bold", alignContent: "center"}}>-</Button></Col>
+                </Form>
+
+                <Form inline style={{position: "absolute", left:"735px", top: "150px"}}>
+                    <FormControl type="text" placeholder="looking for..." className="mr-sm-2"/>
+                    <Button variant="light" style={{backgroundColor: "#5554A4", color: "#ffffff", borderColor: "#5554A4"}}>search</Button>
+                </Form>
             </Row>
             
             <div className="spacer" > &nbsp; </div>
             <div className="spacer" > &nbsp; </div>
             <div className="spacer" > &nbsp; </div>
+            <div className="spacer" > &nbsp; </div>
+            <div className="spacer" > &nbsp; </div>
+       
 
 
-                <table border = "1" cellpadding = "10" width = "964">
+            
+
+            <Row style = {{position: "absolute", left: "500", top: "100"}}>
+                <table  border = "1" cellpadding = "10" width = "964">
                     <tr align = "center">
-                        <th className= "black">Sensor Type ˇ</th>
-                        <th className= "black">ID#/Name ˇ</th>
-                        <th className= "black">Location/Status ˇ</th>
-                        <th className= "black">Other Details ˇ</th>
+                        <th className= "black">
+                            <Dropdown.Toggle variant = "outline-light" id = "dropdown-basic" style={{color:"#5554A4", borderColor:"#ffffff00", fontSize: "25px"}}>Sensor Type</Dropdown.Toggle>
+                        </th>
+                        <th className= "black">
+                            <Dropdown.Toggle variant = "outline-light" id = "dropdown-basic" style={{color:"#5554A4", borderColor:"#ffffff00", fontSize: "25px"}}>ID#/Name</Dropdown.Toggle>
+                        </th>
+                        <th className= "black">
+                            <Dropdown.Toggle variant = "outline-light" id = "dropdown-basic" style={{color:"#5554A4", borderColor:"#ffffff00", fontSize: "25px"}}>Location/Status</Dropdown.Toggle>
+                        </th>
+                        <th className= "black">
+                            <Dropdown.Toggle variant = "outline-light" id = "dropdown-basic" style={{color:"#5554A4", borderColor:"#ffffff00", fontSize: "25px"}}>Other Details</Dropdown.Toggle>
+                        </th>
                     </tr>
 
                     <tr>
@@ -75,6 +104,8 @@ const Setup = () => {
                         <td className= "black2">blank4</td>
                     </tr>
                 </table>
+            </Row>
+                
             </div>
 
             <div className="spacer" > &nbsp; </div>
