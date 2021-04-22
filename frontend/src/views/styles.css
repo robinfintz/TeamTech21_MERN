@@ -61,10 +61,10 @@
   .circle {
     position: absolute;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    right: 10px;
-    top: 100px;
+    width: 40px;
+    height: 40px;
+    left: 650px;
+    top: 140px;
     background: #ffa305;
   }
 
@@ -86,6 +86,7 @@
     /*width: 300 px;
     border: 3px solid #73AD21;*/
   }
+
   .image {
     display: block;
     margin-left: auto;
