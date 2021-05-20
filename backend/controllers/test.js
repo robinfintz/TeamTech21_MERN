@@ -17,3 +17,15 @@ exports.student = function(request, response) {
 exports.admin = function(request, response) {
     sendAsHtml(response, 'Hello, Admin.');
 }
+
+exports.getLocations = function(request, response) {
+    sendAsHtml(response, 'Getting Location');
+}
+
+exports.login = function(request, response) {
+    sendAsHtml(response, 'Login data passed');
+}
+
+exports.maps = function(request, response) {
+    sendAsHtml(response, 'Map data passed');
+}
