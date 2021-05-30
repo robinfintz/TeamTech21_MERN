@@ -32,6 +32,7 @@ function App() {
   return (
     <Router>
       <div id='page-container'>
+         <Sidebar/>
         <div className="content">
           <Switch>
            {/*  <Route exact path="/">
@@ -46,7 +47,7 @@ function App() {
             <Route exact path="/SensorUpdate" render={(props) => <SensorUpdate {...props}/>}/>
           </Switch>
         </div>
-        <Sidebar/>
+   
       </div>
     </Router>
   );

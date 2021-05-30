@@ -12,7 +12,7 @@ import Vector2 from '../Vector2.png'
 
 const Location = () => {
         return (
-        <div>
+        <div className="SensorUpdate">
             <Container>
             <div className = "roundRect" >
               <div className="spacer" > &nbsp; </div>

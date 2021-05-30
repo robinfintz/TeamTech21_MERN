@@ -6,22 +6,22 @@ import RoomIcon from '@material-ui/icons/Room';
 
 export const SidebarData = [
     {
-        title: "Home",
+        title: " Home",
         icon: <HomeIcon/>,
         link: "/Home",
     },
     {
-        title: "Settings",
+        title: " Settings",
         icon: <SettingsIcon/>,
-        link: "/Settings",
+        link: "/Setup",
     },
     {
-        title: "Map",
+        title: " Map",
         icon: <RoomIcon/>,
         link: "/Location",
     },
     {
-        title: "Updates",
+        title: " Updates",
         icon: <DynamicFeedIcon/>,
         link: "/SensorUpdate",
     },

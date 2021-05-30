@@ -36,7 +36,7 @@ const SensorUpdate = () => {
         )
     }
     return (
-    <div>
+    <div className = "SensorUpdate">
        <ReactBootstrap.Table striped bordered hover>
            <thead>
                <tr>
