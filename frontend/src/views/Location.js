@@ -12,10 +12,11 @@ import Vector2 from '../Vector2.png'
 
 const Location = () => {
         return (
-        <div className="SensorUpdate">
-            <Container>
+        <div>
+            <div style={{position: "fixed", fontSize: "50px", fontWeight: "50", color: "#5554A4", left: "30vw", top:"3vh", fontFamily: "gill sans"}}>EMPLOYEE LOCATIONS</div>
+            <Container style={{position: "fixed", left: "7vw", top:"-5%"}}>
             <div className = "roundRect" >
-              <div className="spacer" > &nbsp; </div>
+            <div className="spacer" > &nbsp; </div>
               <Row>
                   <div className="spacer" > &nbsp; </div>
                   <div className="spacer" > &nbsp; </div>

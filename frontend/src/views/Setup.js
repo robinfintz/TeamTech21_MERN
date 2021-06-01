@@ -16,8 +16,7 @@ const Setup = () => {
     return (   
     <div>
         <Container>
-        {/* <div className = "purp">HELLO THERE</div> */}
-        <div className = "rectangle">
+        <div className = "rectangle" style={{position: "fixed", left:"30%", top:"3%", height: "80vh"}}>
             
             <Row>
                 <Row><div className = "purp" style = {{position: "absolute", left: "50px", top: "120px"}}>SENSOR SETUP</div></Row>
@@ -45,10 +44,10 @@ const Setup = () => {
             
 
             <Row style = {{position: "absolute", left: "500", top: "100"}}>
-                <table  border = "1" cellpadding = "10" width = "964">
+                <table  >
                     <tr align = "center">
                         <th className= "black">
-                            <Dropdown.Toggle variant = "outline-light" id = "dropdown-basic" style={{color:"#5554A4", borderColor:"#ffffff00", fontSize: "25px"}}>Sensor Type</Dropdown.Toggle>
+                            <Dropdown.Toggle variant = "outline-light" id = "dropdown-basic" style={{color:"#5554A4", fontSize: "25px"}}>Sensor Type</Dropdown.Toggle>
                         </th>
                         <th className= "black">
                             <Dropdown.Toggle variant = "outline-light" id = "dropdown-basic" style={{color:"#5554A4", borderColor:"#ffffff00", fontSize: "25px"}}>ID#/Name</Dropdown.Toggle>
@@ -61,47 +60,36 @@ const Setup = () => {
                         </th>
                     </tr>
 
-                    <tr>
-                        <td className= "black2">blank1</td>
-                        <td className= "black2">blank2</td>
-                        <td className= "black2">blank3</td>
-                        <td className= "black2">blank4</td>
+                    <tr align = "center">
+                        <td className= "black">Air Quality</td>
+                        <td className= "black">101</td>
+                        <td className= "black">Ground</td>
+                        <td className= "black">None</td>
                     </tr>
-                    <tr>
-                        <td className= "black2">blank1</td>
-                        <td className= "black2">blank2</td>
-                        <td className= "black2">blank3</td>
-                        <td className= "black2">blank4</td>
+                    <tr align = "center">
+                        <td className= "black">GPS</td>
+                        <td className= "black">200</td>
+                        <td className= "black">First Floor</td>
+                        <td className= "black">Short Battery Life</td>
                     </tr>
-                    <tr>
-                        <td className= "black2">blank1</td>
-                        <td className= "black2">blank2</td>
-                        <td className= "black2">blank3</td>
-                        <td className= "black2">blank4</td>
+                  
+                    <tr align = "center">
+                        <td className= "black">Air Quality</td>
+                        <td className= "black">107</td>
+                        <td className= "black">Outside</td>
+                        <td className= "black">Not detecting CO</td>
                     </tr>
-                    <tr>
-                        <td className= "black2">blank1</td>
-                        <td className= "black2">blank2</td>
-                        <td className= "black2">blank3</td>
-                        <td className= "black2">blank4</td>
+                    <tr align = "center">
+                        <td className= "black">Air Quality</td>
+                        <td className= "black">109</td>
+                        <td className= "black">Second Floor</td>
+                        <td className= "black">None</td>
                     </tr>
-                    <tr>
-                        <td className= "black2">blank1</td>
-                        <td className= "black2">blank2</td>
-                        <td className= "black2">blank3</td>
-                        <td className= "black2">blank4</td>
-                    </tr>
-                    <tr>
-                        <td className= "black2">blank1</td>
-                        <td className= "black2">blank2</td>
-                        <td className= "black2">blank3</td>
-                        <td className= "black2">blank4</td>
-                    </tr>
-                    <tr>
-                        <td className= "black2">blank1</td>
-                        <td className= "black2">blank2</td>
-                        <td className= "black2">blank3</td>
-                        <td className= "black2">blank4</td>
+                    <tr align = "center">
+                        <td className= "black">GPS</td>
+                        <td className= "black">107</td>
+                        <td className= "black">Ground</td>
+                        <td className= "black">Wrong locations</td>
                     </tr>
                 </table>
             </Row>

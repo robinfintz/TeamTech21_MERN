@@ -106,7 +106,7 @@ const Home = () => {
             <div className="spacer" > &nbsp; </div>
             <div className="spacer" > &nbsp; </div>
 
-                <Dropdown style={{position: "absolute", left:"26%", top: "10%"}}>                
+                <Dropdown style={{position: "absolute", left:"7%", top: "12%"}}>                
                     <Dropdown.Toggle variant="outline-light" id="dropdown-basic" style={{color:"#5554A4", borderColor:"#ffffff00"}}>
                         buildings
                     </Dropdown.Toggle>
@@ -121,7 +121,7 @@ const Home = () => {
                 <div className="spacer" > &nbsp; </div>
                 <div className="spacer" > &nbsp; </div>
                 <div className="spacer" > &nbsp; </div>
-                <Dropdown style={{position: "absolute", left:"35%", top: "10%"}}>
+                <Dropdown style={{position: "absolute", left:"16%", top: "12%"}}>
                     <Dropdown.Toggle variant="outline-light" id="dropdown-basic" style={{color:"#5554A4", borderColor:"#ffffff00"}}>
                         floors
                     </Dropdown.Toggle>
@@ -136,7 +136,7 @@ const Home = () => {
                 </Dropdown><div className="spacer" > &nbsp; </div>
                 <div className="spacer" > &nbsp; </div>
                 <div className="spacer" > &nbsp; </div>
-                <Dropdown style={{position: "absolute", left:"42%", top: "10%"}}>
+                <Dropdown style={{position: "absolute", left:"22%", top: "12%"}}>
                     <Dropdown.Toggle variant="outline-light" id="dropdown-basic" style={{color:"#5554A4", borderColor:"#ffffff00"}}>
                         sensors
                     </Dropdown.Toggle>
@@ -164,7 +164,7 @@ const Home = () => {
             <div className="spacer" > &nbsp; </div>
 
             <Row>
-                <img src={map} className="rounded" style={{position: "sticky", left: "26%", top: "20%"}} ></img>
+                <img src={map} className="rounded" style={{position: "fixed", left: "30%", top: "18%"}} ></img>
                 <div className="spacer" > &nbsp; </div>
 
             </Row>

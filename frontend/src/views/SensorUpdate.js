@@ -19,6 +19,14 @@ const SensorUpdate = () => {
         {time: "12:05:01.264", sensorID: 102, workerName: "Viktor", latitude: 30.632344, longitude: -82.874577, temperature: 84.34, ethanol: 18077, tvoc: 0}, 
         {time: "12:03:01.264", sensorID: 100, workerName: "Sveta", latitude: 20.632344, longitude: -82.874577, temperature: 84.34, ethanol: 18077, tvoc: 0}, 
         {time: "12:02:01.264", sensorID: 101, workerName: "Viktor", latitude: 30.632344, longitude: -82.874577, temperature: 84.34, ethanol: 18077, tvoc: 0}, 
+        {time: "12:01:01.264", sensorID: 103, workerName: "Boris", latitude: 29.632344, longitude: -82.874577, temperature: 82.34, ethanol: 17054, tvoc: 0},
+        {time: "11:55:01.264", sensorID: 102, workerName: "Viktor", latitude: 30.632344, longitude: -82.874577, temperature: 84.34, ethanol: 18077, tvoc: 0}, 
+        {time: "11:43:01.264", sensorID: 100, workerName: "Sveta", latitude: 20.632344, longitude: -82.874577, temperature: 84.34, ethanol: 18077, tvoc: 0}, 
+        {time: "10:02:01.264", sensorID: 101, workerName: "Viktor", latitude: 30.632344, longitude: -82.874577, temperature: 84.34, ethanol: 18077, tvoc: 0}, 
+        {time: "9:10:01.264", sensorID: 103, workerName: "Boris", latitude: 29.632344, longitude: -82.874577, temperature: 82.34, ethanol: 17054, tvoc: 0},
+        {time: "9:05:01.264", sensorID: 102, workerName: "Mikhail", latitude: 30.632344, longitude: -82.874577, temperature: 84.34, ethanol: 18077, tvoc: 0}, 
+        {time: "9:03:01.264", sensorID: 100, workerName: "Ivan", latitude: 20.632344, longitude: -82.874577, temperature: 84.34, ethanol: 18077, tvoc: 0}, 
+        {time: "8:02:01.264", sensorID: 101, workerName: "Lyuda", latitude: 30.632344, longitude: -82.874577, temperature: 84.34, ethanol: 18077, tvoc: 0}, 
     ]
 
     const renderReading = (reading, index) => {
@@ -37,6 +45,7 @@ const SensorUpdate = () => {
     }
     return (
     <div className = "SensorUpdate">
+       <div style={{fontSize: "50px", fontWeight: "50", color: "#5554A4", left: "20%", top:"3%", fontFamily: "gill sans"}}>SENSOR UPDATES</div>
        <ReactBootstrap.Table striped bordered hover>
            <thead>
                <tr>
