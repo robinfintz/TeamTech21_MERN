@@ -19,7 +19,7 @@ const Setup = () => {
         <div className = "rectangle" style={{position: "fixed", left:"30%", top:"3%", height: "80vh"}}>
             
             <Row>
-                <Row><div className = "purp" style = {{position: "absolute", left: "50px", top: "120px"}}>SENSOR SETUP</div></Row>
+                <Row><div className = "purp" style = {{position: "absolute", left: "5%", top: "18%"}}>SENSOR SETUP</div></Row>
 
                 <Form inline>
                     <Col><Button className = "circle" variant="dark" style = {{borderColor: "#ffa305", fontWeight: "bold", alignContent: "center"}}>+</Button></Col>
@@ -38,9 +38,6 @@ const Setup = () => {
             <div className="spacer" > &nbsp; </div>
             <div className="spacer" > &nbsp; </div>
             <div className="spacer" > &nbsp; </div>
-       
-
-
             
 
             <Row style = {{position: "absolute", left: "500", top: "100"}}>
